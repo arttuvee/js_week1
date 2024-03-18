@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #0000ff;
+    --gradient: linear-gradient(to right, #323166, #130c4b);
+    --container-background: #4e4e4e7a;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+#header {
+    background-color: var(--blue);
+    text-align: center;
+}
+
+body {
+    background: var(--gradient);
+}
+
+h1 {
+    color: var(--black)
+}
+
+h2 {
+    color: var(--black)
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    background-color: var(--container-background);
+}
+
+#picture-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    background-color: var(--container-background);
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+}
+
+#link {
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+}
+
+#link:hover {
+    color: red;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 20px 20px 20px;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    background-color: var(--container-background);
+}
+
+#table-container tr:nth-child(even) {
+    background-color: #ffffff77;
+}
+
+#list-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+    border: 3px solid var(--black);
+    border-radius: 15px;
+    background-color: var(--container-background);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+}
